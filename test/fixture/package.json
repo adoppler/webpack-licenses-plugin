@@ -1,0 +1,10 @@
+{
+  "name": "fixture",
+  "dependencies": {
+    "lodash": "*",
+    "react": "*"
+  },
+  "devDependencies": {
+    "json-schema": "*"
+  }
+}
