@@ -5,7 +5,7 @@ function validateConfig(conf) {
     acceptable: /.*/,
     unacceptable: /unlicensed/i,
     selected: {},
-    title: 'Licenses',
+    title: 'Licenses:',
     filename: 'LICENSES.txt',
   }, conf)
 }

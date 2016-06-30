@@ -5,7 +5,7 @@ import test from 'ava'
 import WebpackLicensesPlugin from '../webpack-licenses-plugin'
 
 test('Hook into webpack emit event', t => {
-  t.plan(4)
+  t.plan(5)
 
   const licensePlugin = new WebpackLicensesPlugin({
     filename: 'LICENSES.txt',
@@ -25,6 +25,7 @@ test('Hook into webpack emit event', t => {
         t.true(result.size() > 0)
 
         const text = result.source()
+        t.true(text.startsWith('Licenses:\n'))
         t.regex(text, /react licensed under BSD-3-Clause/)
         t.is(text.indexOf('json-schema'), -1)
       })
