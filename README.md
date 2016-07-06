@@ -1,3 +1,7 @@
+# Update
+
+This plugin is not actively maintained. Please use https://github.com/xz64/license-webpack-plugin
+
 # WebpackLicensesPlugin
 
 Adds a file to your webpack build with license information about all your dependencies.
