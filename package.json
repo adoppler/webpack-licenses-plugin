@@ -1,6 +1,6 @@
 {
   "name": "webpack-licenses-plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generate a list of libraries and their licenses as part of your webpack build",
   "main": "webpack-licenses-plugin.js",
   "scripts": {
